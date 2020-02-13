@@ -1,0 +1,25 @@
+body{
+ line-height:35px;
+  font-size:14px;
+  
+}
+img{
+  display:inline-block;
+  position:relative;
+  float:left;
+}
+.sorede{
+  display:block;
+}
+h1{
+  font-weight:normal;
+  padding:20px 0;
+}
+span{
+  font-size:30px;
+}
+
+@media(min-width:600px){img{width:56%}.sorede{margin-left:60%;height:400px;line-height:40px;font-size:15px;}}
+@media(max-width:600px){img{width:56%}.sorede{margin-left:60%;line-height:35px;font-size:15px;}}
+@media(max-width:500px){img{width:90%;margin:0 auto;float:none;}.sorede{margin:0;width100%}}
+@media(min-width:700px){img{width:350px}.sorede{margin-left:400px;line-height:40px;font-size:15px;}}

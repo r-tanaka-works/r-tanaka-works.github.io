@@ -1,0 +1,162 @@
+     #slideshow {
+	position: relative;
+   }
+
+   #slideshow p {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0.0;
+	margin: 0;
+	/* NOT USE
+   background-color: white;  ボックスの背景色(必須) */ 
+   }
+
+   #slideshow p.active {
+   z-index: 4;
+   opacity: 1.0;
+   }
+
+   #slideshow p.last-active {
+   z-index: 3;
+   }
+
+   #slideshow p img {
+   display: block;
+   border: 0;
+   }
+
+html{
+  height:100%;
+}
+body{
+  height:100%;
+}
+.container{
+  width:100%;
+  overflow:hidden;
+}
+
+.countdown{
+  position:absolute;
+  padding: 20px 10px;
+  right:0;
+  left:0;
+  top:80px;
+  color:#000;
+  text-align:center;
+  font-size:20px;
+  background:rgba(256,256,256,0.6);
+  font-weight:bolder;
+}
+
+
+.day,.hour,.min,.sec{
+  font-size: 53px;
+  padding:0 4px;
+}
+#CDT .countdown-text{
+  font-size: 15px; 
+  padding:0;
+}
+.milli{
+  font-size:37px;
+  padding-left:5px;
+}
+.under-countdown{
+  margin-top:-23px;
+  font-size:18px;
+}
+.uc-item{
+  padding:0 25px;
+}
+@media(max-width:600px){.countdown{font-size:16px}#CDT .countdown-text{font-size:20px;}.day,.hour,.min,.sec,.milli{font-size:30px}}
+.info{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.info li{
+  list-style:none;
+    text-align:center;
+}
+.info li + li a{
+  font-size:13px;
+}
+img{
+  z-index:90;
+}
+
+
+
+
+@media(min-width:1090px){
+.countdown{
+  margin-left:410px;
+  margin-right:180px;
+  top:170px; 
+}
+img{
+  width:800px;
+  background:#dacb22;
+  margin:0 auto;
+}
+.info{
+ display:flex;
+}
+.info ul{
+  display:block;
+  width:40%;
+}
+.info dl{
+  width:30%;
+  display:block;
+}
+
+}
+@media(max-width:1090px){
+.countdown{
+  top:15vw;
+}
+main{
+  padding:0;
+}
+
+.info li + li{
+  width:calc(50% - 2px);
+  width:-webkit-calc(50% - 2px);
+  float:left;
+}
+img{
+  width:100%;
+  background:#dacb22;
+}
+@media(max-width:470px){
+.countdown{
+  top:100px;
+}
+
+#CDT{
+  display:block;
+}
+.info li +li{
+  width:100%;
+  float:none;
+}
+#img{
+  width:100%;
+  overflow:hidden;
+}
+.img{
+  position:relative;
+  display:block;
+  left:50%;
+  margin-left:-225px;
+  height:300px;
+}
+img{
+  height:300px;
+  width:450px;
+}
+}

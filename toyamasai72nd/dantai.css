@@ -1,0 +1,50 @@
+dt{
+  font-weight:bold;
+  margin-left:20px;
+}
+.class{
+  font-size:15px;
+  line-height:25px;
+  padding-top:15px;
+}
+.title{
+  color:#555;
+  font-size:15px;
+  line-height:30px; 
+}
+.intro{
+  color:#777;
+  font-size:12px;
+  line-height:25px;
+  margin-left:20px;
+
+}
+.que{
+  color:#444;
+  font-weight:bold;
+  font-size:14px;
+  margin-left:20px;
+}
+dl{
+  display:block;
+  width:98%;
+  border-top:1px solid #ccc;
+  margin:0 auto;
+  padding-bottom:20px;
+}
+.jump-access{
+  display:block;
+  text-decoration:none;
+  color:#aaa;
+  font-size:18px;
+  padding-bottom:20px;
+}
+
+h1{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:27px;
+  padding: 20px 0;
+  border:none;
+}
