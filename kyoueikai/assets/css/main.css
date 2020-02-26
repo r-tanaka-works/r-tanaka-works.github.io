@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+     font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
 }
 
 body {
@@ -33,7 +33,7 @@ header {
 	display: inline-block;
 	height: 36px;
 	width: auto;
-	padding-left: 20px;
+	padding:10px 0 0 10px;
 }
 
 a {
@@ -46,11 +46,11 @@ i {
 
 .header-icon {
 	position: absolute;
-	top: 0;
+	top: 5px;
 	display: block;
 	margin: 10px;
-	margin-left: calc(100vw - 136px);
-	font-size:40px;
+	margin-left: calc(100vw - 160px);
+	font-size:44px;
 }
 
 .fa-twitter-square {
@@ -66,24 +66,26 @@ i {
 }
 
 .header-message {
-	font-family: serif;
+	font-family: 'Noto Serif JP', serif;
 	position: relative;
 	width: 70vw;
 	padding: 82px 8vw;
 	font-size: 1.3em;
-	font-weight: 500;
-	color:#090909;
+	font-weight: 400;
+	color:#000;
 	bottom: 20px;
 	opacity: 0.75;
 	max-width: 545px;
-	line-height: 1.5em;
+	line-height: 2em;
+	letter-spacing:0.9px;
 }
 
 .header-message h1 {
 	display: block;
 	width: 60vw;
-	font-size: 3em;
-	margin: 10px 0;
+	font-size: 2.5em;
+	font-weight:550;
+	margin: 14px 0;
 	line-height: 1.15em;
 
 }
@@ -117,7 +119,7 @@ i {
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 
 .account-group__btn .btn {
@@ -157,7 +159,7 @@ i {
 	letter-spacing: 0.01em;
 	line-height: 2.0em;
 	border: 1px solid #c7c7c7;
-	border-radius: 6px;
+	border-radius: 4px;
 	width: 100%;
 	padding: 9px;
 	margin: 0 auto;
@@ -175,8 +177,8 @@ i {
 
 .intro {
 	font-size: 1.35em;
+	font-weight:500;
 	line-height:1.75em;
-	letter-spacing:0.8px;
 }
 
 @media screen and (max-width: 360px) {}
@@ -187,7 +189,7 @@ i {
 		margin: 0;
 	}
 	.header-icon {
-		margin-left: calc(100vw - 100px);
+		margin-left: calc(100vw - 130px);
 	}
 }
 
@@ -204,22 +206,40 @@ i {
 .major {
 	position: relative;
 	padding: 0.2em;
+	font-size:22px;
+	text-align:center;
 }
 
 .bg2 .major:after {
-	content: "";
-	display: block;
-	height: 4px;
-	background: -webkit-linear-gradient(to right, rgb(23, 46, 172), transparent);
-	background: linear-gradient(to right, rgb(23, 46, 172), transparent);
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 10em;
+    height: 3px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #0854a2;
 }
 
 .bg .major:after {
-	content: "";
-	display: block;
-	height: 2px;
-	background: -webkit-linear-gradient(to right, rgb(105, 140, 255), transparent);
-	background: linear-gradient(to right, rgb(105, 140, 255), transparent);
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 10em;
+    height: 2px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #fff;
 }
 
 .bg2 {
@@ -265,8 +285,10 @@ li {
 	font-size: 1.7em;
 	border-radius: 50%;
 	width: 25px;
-	height: 25px;
-	margin: 20px 0;
+	height: 21px;
+	margin: 20px 3px;
+	padding-top:3px;
+	top:-3px;
 }
 
 .stp-title {
@@ -274,6 +296,7 @@ li {
 	font-size: 2.0em;
 	font-weight: 700;
 	margin: 10px 0;
+	padding-top:3px;
 }
 
 .stp-icons {
@@ -363,7 +386,7 @@ li {
 }
 
 .bg2 {
-	margin: 30px;
+	margin: 35px;
 }
 
 table {
