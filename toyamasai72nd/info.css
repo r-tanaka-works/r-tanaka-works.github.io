@@ -1,7 +1,7 @@
 .drawer-contents{
-  padding-right:25px;
-  padding-left:25px;
+  padding-left:30px;
 }
+
 ul{
   padding:0;
 }
@@ -9,16 +9,17 @@ dl ul li{
   list-style:none;
   margin-left:20px;
   line-height:26px;
+  font-weight:500;
 }
 dl ul li:before{
   content:"";
-  width:4px;
+  width:12px;
   height:4px;
   display:inline-block; 
-  border-radius:100%;
-  background:#5BA354;
+  border-radius:2px;
+  background:#6bd635;
   position:relative;
-  left:-13px;
+  left:-8px;
   top:-3px;
 }
 dd{
@@ -31,14 +32,14 @@ dt{
 }
 dt:before{
   content:"";
-  width:13px;
-  height:13px;
+  width:5px;
+  height:18px;
   display:inline-block; 
-  border-radius:100%;
-  background:#5BA354;
+  background:#f97e14;
   position:relative;
-  left:-8px;
-  top:-1px;
+  border-radius:2px;
+  left:-10px;
+  top:2px;
 }
 
 .attention li{

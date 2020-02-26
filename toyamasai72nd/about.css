@@ -1,6 +1,6 @@
 body{
- line-height:35px;
-  font-size:14px;
+ line-height:26px;
+  font-size:13px;
 }
 img{
   display:inline-block;
@@ -11,21 +11,20 @@ img{
 .sorede{
   display:block;
 }
-h1{
-  font-weight:bold;
-  font-size:25px;
-}
 span{
-  font-size:30px;
+  font-size:16px;
+  font-weight:700;
 }
 .slogan{
-  font-weight:bold;
-  font-size:32px;
-  color:#ff4500;
+  margin:0 6px;
+  font-size:22px;
+  font-weight:700;
+  color:#6e55b9;
+  letter-spacing:0.3px;
 }
-@media(min-width:800px){.sorede{height:330px;margin-left:400px}img{height:300px}.fuse{width:300px;height:auto;padding-left:40px;}.iincho{padding-bottom:40px;margin-left:400px}}
-@media(max-width:800px){.sorede{height:240px}img{width:50vw;margin-right:20vw;margin-left:20vw;float:none;}.iincho{padding-bottom:40px;padding-top:30px}}
-@media(max-width:550px){.sorede{height:auto}img{width:80%;margin:0 0 0 10%}}
+@media(min-width:800px){.centering{text-align:left;}img{height:150px; margin:0 80px 0 180px;}.fuse{width:300px;height:auto;padding-left:40px;}.iincho{padding-bottom:40px;margin-left:400px}}
+@media(max-width:800px){img{width:50vw;margin-right:20vw;margin-left:20vw;float:none;}}
+@media(max-width:550px){img{width:60%;margin:0 20% 5% 20%}}
 @media(max-width:470px){img{width:100%;margin:0}}
 .sorede-pic{
   margin-top:-20px;
