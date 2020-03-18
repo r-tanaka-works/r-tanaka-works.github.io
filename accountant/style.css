@@ -1,0 +1,49 @@
+﻿body{
+    font-weight: 500;
+    font-family: Helvetica, 游ゴシック, "Yu Gothic", sans-serif;
+    margin:0;
+}
+.wrapper {
+  margin: 0 auto;
+  width:100vw;
+  margin-top: 200px;
+}
+
+#question {
+  font-size: 20px;
+  font-weight:700;
+  padding:50px 0;
+  text-align: center;
+}
+
+
+#tf {
+	width:82vw;
+	margin:40px 5vw;
+	border:1px solid #DDD;
+	padding:12px 4vw;
+	height:30vh;
+	overflow-y:scroll;
+}
+
+#buttons {
+  text-align:center;
+}
+
+.button {
+  margin: 10px;
+  width: 40vw;
+  height: 10vh;
+  background: white;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  color: #111;
+  font-size: 70px;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #a1d7e0;
+  cursor: pointer;
+}
+
