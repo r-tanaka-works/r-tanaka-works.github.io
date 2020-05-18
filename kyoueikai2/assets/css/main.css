@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'Aonagi';
+	src: url("../font/Aonagireisyo_Simo.otf");
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family:'Noto Sans JP';
+	overflow-x:hidden;
+}
+header{
+	position: fixed;
+	top: 0;
+	height: 44px;
+	width:100vw;
+	background-color: #fff;
+	z-index:11;
+}
+#logo{
+	font-family:'Aonagi';
+	font-size: 24px;
+	letter-spacing: 8.3px;
+	padding:10px 15px;
+}
+#h-button{
+	display: block;
+	position: fixed;
+	right:0;
+	top:0;
+	width: 40.5px;
+	height:45px;
+	background-color: #2F80ED;
+}
+.button-line{
+	display:block;
+	height:1px;
+	width:20px;
+	background-color: #fff;
+	margin:16px auto -10px;
+}
+main{
+	margin-top:45px;
+}
+.menu-shadow{
+	position: fixed;
+	display: none;
+	height:100vh;
+	width:100vw;
+	background-color: rgba(0,0,0,0.2);
+	z-index:10;
+}
+.nav-wrapper{
+	display:none;
+	z-index:12;
+	position: fixed;
+	width:calc(100vw - 60px);
+	padding:10px 30px 40px;
+	background-color: #2F80ED;
+	color: #fff;
+}
+.nav-list{
+	padding: 0;
+	margin: 0;
+}
+.nav-list li{
+	list-style: none;
+	display:block;
+	width:100%;
+	border-bottom:1px solid #fff;
+	font-size:18px;
+	font-weight:500;
+	padding:3px 0 3px 10px;
+	margin:15px 0;
+}
+.nav-wrapper h5{
+	font-size:14px;
+	font-weight: 300;
+	margin:30px 0 6px;
+}
+.nav-list-link{
+	margin:0;
+	padding:0 0 0 14px;
+	list-style: none;
+}
+.nav-list-link li{
+	padding:6px 0;
+}
+.header-pic{
+	width:100vw;
+	height: 234px;
+	background-color: #fafafa;
+}
+.header-link{
+	position: relative;
+	width:100vw;
+	height:80px;
+}
+.schedule{
+	position: absolute;
+	width:63vw;
+	left:0;
+	top: 0;
+	padding-top:32px;
+	font-size:12px;
+	text-align: center;
+}
+.entry{
+	position: absolute;
+	width:calc(17.5vw  + 50.5px);
+	right:0;
+	top: 0;
+	background-color: #2F80ED;
+	padding: 30px  0 30px calc(17.5vw - 50.5px);
+	color:#FFF;
+	font-size:14px;
+	text-decoration: underline;	
+}
+.svg{
+	position: absolute;
+	right:calc(17.5vw - 53.5px);
+	top:34px;
+}
+.info{
+	background-color:#5993A6;
+	color:#FFF;
+	padding-bottom:20px;
+}
+.info h2{
+	text-align: center;
+	padding:24px 0 12px;
+	margin:0;
+}
+table{
+	padding-bottom:18px;
+}
+tr{
+	padding:12px 2vw;
+	width:92vw;
+	display: block;
+	text-align: left;
+}
+th{
+	font-weight: 200;
+	padding-left:3vw;
+	display:block;
+}
+.more{
+	position: relative;
+	padding-right:30px;
+	text-align: right;
+	text-decoration: underline;
+}
+.svg2{
+	position: absolute;
+	right: 10px;
+	top: 1.5px;
+}
+p{
+	margin: 24px 40px;
+	line-height: 24px;
+}
+h3{
+	position: relative;
+	padding-left:48px;
+	font-size: 18px;
+	font-weight: 300;
+	margin:24px 0;
+}
+h3:before{
+	position: absolute;
+	display:block;
+	content:' ';
+	margin-left:-38px;
+	top:14px;
+	width:30px;
+	height:1px;
+	background-color:#000;
+}
