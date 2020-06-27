@@ -69,14 +69,8 @@ function f_clear() {
 function f_kotae() {
 	//答えの表示
 	document.flash.number.value = array1.slice(0, 4) ;
-	
+	document.getElementById("f_seiseki").innerHTML = array1.slice(0, 4) ;
 	//初期化
 	document.flash.b_start.value = "スタート";
 	flag = 0;
-}
-
-function getComma(num) {
-	num = new String(num).replace(/,/g, "");
-	while(num != (num = num.replace(/^(-?\d+)(\d{3})/, "$1,$2")));
-	return num;
 }
